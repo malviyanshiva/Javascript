@@ -1,0 +1,46 @@
+body{
+    background-image: url("20200820_180205.jpg");
+    background-size: 1536px 1000px;
+    /* 1536x864 */
+}
+td{
+    border: 2px solid black;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(234, 239, 169);
+}
+.table{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+td:hover{
+    background-color: rgb(93, 231, 231);
+    transition: background-color 1s;
+}
+#b1{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: red;
+}
+button:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: background-color 1s,border-radius 1s;
+}
+#adddelete{
+    height: 100px;
+    width: 500px;
+}
+#b2{
+    position: relative;
+    margin-left: 200px;
+    color: red;
+}
+#b3{
+    margin-left: 10px;
+}

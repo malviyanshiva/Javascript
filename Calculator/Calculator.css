@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(109, 185, 109);
+}
+table{
+    background-color: #6ea9d0;    
+    height: 300px;    
+    width: 400px;   
+    position: relative;   
+    top: 100px;    
+    left: 40%;   
+}
+input[type="button"]
+{
+    background-color:rgba(255, 255, 255, 0.877);
+    color: black;
+    width:90%;
+    height : 80%;
+    margin: 5px;
+    box-shadow: 0px 3px;
+}
+
+input[type="text"]
+{
+    background-color:white;
+    width:100%;
+}
+td{
+    border: none;
+}
