@@ -44,3 +44,10 @@ button:hover{
 #b3{
     margin-left: 10px;
 }
+input{
+    background-color: rgb(234, 239, 169);
+    border: none;
+    width: 50%;
+    height: 50%;
+    border-radius:10px;
+}

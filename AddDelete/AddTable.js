@@ -4,9 +4,9 @@ function addrow(){
     var row=table.insertRow(-1);
     var a=row.insertCell(0);
     var b=row.insertCell(1);
-    a.innerHTML= "new CELL"+count;
+    a.innerHTML= '<input type="text" placeholder="Enter data">';
     count++;
-    b.innerHTML= "new CELL"+count;
+    b.innerHTML= '<input type="text" placeholder="Enter data">';
     count++;
 }
 function delrow(){
@@ -16,8 +16,8 @@ function delrow(){
     else{
         var a=document.getElementById("table");
         a.deleteRow(-1);
-        count-=2;
     }
+    count-=2
 }
 var change=0;
 function changebackground(){
